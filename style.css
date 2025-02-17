@@ -1,4 +1,57 @@
-body{
-    background-color: #827d7d;
-    font-family: Arial, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #1b1b1b;
+
+}
+
+.container {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: #fff;
+    margin: 100px auto;
+    padding: 30px 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebeced;
+    width: 85%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebeced;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
